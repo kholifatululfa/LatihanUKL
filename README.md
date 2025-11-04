@@ -14,6 +14,8 @@ Cara Kerja:Input (di main): Program utama (main) meminta input jari-jari ($r$) d
 <img width="1858" height="669" alt="Cuplikan layar 2025-11-05 045003" src="https://github.com/user-attachments/assets/cea70a7b-9207-4f07-b40a-648b9f07bafc" />
 Program Rata-rata Nilai SiswaFungsi (Tujuan):Menghitung nilai rata-rata dari sejumlah nilai ujian siswa, di mana jumlah siswanya ditentukan oleh pengguna.
 Cara Kerja:Input Awal: Meminta pengguna memasukkan jumlah siswa (misal $n=5$).Inisialisasi: Menyiapkan variabel totalNilai = 0.Proses (Loop): Menggunakan for loop untuk berulang sebanyak $n$ kali (5 kali).Input Berulang: Di dalam loop, program meminta "Masukkan nilai siswa ke-..." dan langsung menambahkannya ke totalNilai.Kalkulasi: Setelah loop selesai, program menghitung rata-rata dengan rumus rataRata = totalNilai / jumlahSiswa.Output: Menampilkan rataRata.
+
 #saya_belum_diajarkan_matriks
+
 Program Penjumlahan Matriks Fungsi (Tujuan): Menjumlahkan dua buah matriks (Matriks A dan Matriks B) yang elemennya dimasukkan oleh pengguna.
 Cara Kerja:Input Dimensi: Meminta pengguna memasukkan jumlah baris dan kolom.Input Matriks A: Menggunakan perulangan bersarang (nested loop) untuk meminta pengguna memasukkan setiap elemen Matriks A (misal: A[0][0], A[0][1], A[1][0], dst.).Input Matriks B: Mengulangi proses yang sama untuk Matriks B.Proses Penjumlahan: Menggunakan nested loop ketiga. Di setiap posisi [i][j], program menghitung Hasil[i][j] = A[i][j] + B[i][j].Output: Mencetak Matriks Hasil (dan biasanya juga Matriks A dan B) ke layar secara rapi.
